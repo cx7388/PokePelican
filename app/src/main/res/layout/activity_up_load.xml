@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_up_load"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="be.kuleuven.softdev.hehuang.pokepelican.UpLoad">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/selectImageToUpload"
+            android:text="Select Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageToUplaod"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/etUplaodNames"
+            android:hint="Enter the name of the item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/etItemPrice"
+            android:hint="Enter the Price of the item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<EditText-->
+        <!--android:id="@+id/etItemCatagory"-->
+        <!--android:hint="Enter the Catagory of the item"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Catagory"
+                android:layout_gravity="left"
+                android:id="@+id/selectcatagory"
+                android:textSize="18dp"
+                />
+
+            <Spinner
+                android:id="@+id/spItemCatagory"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/selectcatagory"></Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:id="@+id/blank"
+                android:layout_below="@+id/selectcatagory" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Location"
+                android:layout_gravity="left"
+                android:id="@+id/selectlocation"
+                android:layout_below="@+id/blank"
+                android:textSize="18dp"/>
+            <Spinner
+                android:id="@+id/spItemLocation"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/selectlocation"
+                android:layout_below="@+id/blank"
+                ></Spinner>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/etItemDiscribtion"
+            android:hint="Enter the Discribtion of the item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<EditText-->
+        <!--android:id="@+id/etItemLocation"-->
+        <!--android:hint="Enter the location of the item"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <Button
+            android:id="@+id/bUploadImage"
+            android:text="Uplaod Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

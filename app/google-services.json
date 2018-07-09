@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "491057460201",
+    "firebase_url": "https://pokepelican.firebaseio.com",
+    "project_id": "pokepelican",
+    "storage_bucket": "pokepelican.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491057460201:android:204b0711c3bd12cf",
+        "android_client_info": {
+          "package_name": "be.kuleuven.softdev.hehuang.pokepelican"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491057460201-u7vpun73rr7m9rg5g3sg9g17avv0eobn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "be.kuleuven.softdev.hehuang.pokepelican",
+            "certificate_hash": "B21A55E25F5E63D28D02715976DB2F90DA77FB6B"
+          }
+        },
+        {
+          "client_id": "491057460201-p5q3r57u0rklvnff1q6ncjh9jriun931.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0b0hJX95SDFScn-59kpCI3_8mJX5waE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491057460201-p5q3r57u0rklvnff1q6ncjh9jriun931.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
